@@ -1,0 +1,7 @@
+version: '3'
+services:
+  hacker_news:
+    container_name: hack_py
+    image: dilanmorar/hack_py
+    ports:
+    - 5000:5000

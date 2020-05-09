@@ -12,7 +12,7 @@ A dockerfile is a script with various commands and arguements listed successivel
 
 ## How to run API using dockerfile
 
-Need to make sure you are in the project directory
+Need to make sure you are in the project directory 'Hackerank_basic_api'.
 
 To build the image:
 
@@ -46,4 +46,4 @@ My repository on Docker Hub: https://hub.docker.com/repository/docker/dilanmorar
 
 ## Using docker compose
 
-Docker compose allows you to run multi-container docker applications, such as an app and a database, but in this case it is only the one application. You can create and start all the services with a single command `docker-compose up`
+Docker compose allows you to run multi-container docker applications, such as an app and a database, but in this case it is only the one application. You can create and start all the services with a single command `docker-compose up`.

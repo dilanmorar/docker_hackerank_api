@@ -15,9 +15,11 @@ A dockerfile is a script with various commands and arguements listed successivel
 Need to make sure you are in the project directory
 
 To build the image:
+
 `docker build . -t <image_name>`
 
 To run the container:
+
 `docker run -d --name <image_name> -p 5000:5000 <container_name>`
 
 Go to localhost:5000/hackerank-top-10
@@ -33,9 +35,11 @@ The first thing you need to do is to create a Docker Hub account, and then creat
 Once the container is running (the 'How to run API') you can push the image to the repository you created.
 
 Then need to commit the project:
+
 `docker commit -m 'commit message' <image_name> <username/repository_name>`
 
 Push the project to Docker Hub:
+
 `docker push <username/repository_name>`
 
 My repository on Docker Hub: https://hub.docker.com/repository/docker/dilanmorar/hack_api
